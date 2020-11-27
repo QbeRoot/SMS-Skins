@@ -1,0 +1,43 @@
+* {
+	font-family: sans-serif;
+}
+
+aside {
+	font-style: italic;
+}
+
+body {
+	text-align: center;
+}
+
+form {
+	display: inline-block;
+	margin: 1em auto;
+}
+
+output {
+	font-family: monospace;
+}
+
+select {
+	margin: 0 3em;
+}
+
+table {
+	border-collapse: collapse;
+	float: left;
+	margin-right: 1em;
+}
+
+td, th {
+	padding: .5em;
+	text-align: center;
+}
+
+td:first-child {
+	text-align: right;
+}
+
+textarea {
+	font-family: monospace;
+}

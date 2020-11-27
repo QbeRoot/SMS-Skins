@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Super Mario Sunshine Skin Generator</title>
+		<link rel="stylesheet" media="screen" href="style.css" />
+	</head>
+	<body>
+		<h1>Super Mario Sunshine Skin Generator</h1>
+		<aside>The effect of these codes is purely visual, e.g. enabling the helmet will not let you breathe longer underwater.</aside>
+		<form action="#" method="POST">
+			<table>
+				<tr>
+					<th></th>
+					<th>Always</th>
+					<th>Default</th>
+					<th>Never</th>
+				</tr>
+				<tr>
+					<td>Helmet</td>
+					<td><input type="radio" name="h" value="y" /></td>
+					<td><input type="radio" name="h" value="" checked /></td>
+					<td><input type="radio" name="h" value="n" /></td>
+				</tr>
+				<tr>
+					<td>Cap</td>
+					<td><input type="radio" name="c" value="y" /></td>
+					<td><input type="radio" name="c" value="" checked /></td>
+					<td><input type="radio" name="c" value="n" /></td>
+				</tr>
+				<tr>
+					<td>Shades</td>
+					<td><input type="radio" name="g" value="y" /></td>
+					<td><input type="radio" name="g" value="" checked /></td>
+					<td><input type="radio" name="g" value="n" /></td>
+				</tr>
+				<tr>
+					<td>Shine shirt</td>
+					<td><input type="radio" name="s" value="y" /></td>
+					<td><input type="radio" name="s" value="" checked /></td>
+					<td><input type="radio" name="s" value="n" /></td>
+				</tr>
+				<tr>
+					<td>Invisible</td>
+					<td><input type="checkbox" name="i" /></td>
+					<td colspan="2"></td>
+				</tr>
+			</table>
+			<select name="v">
+				<option value="" selected>Game version</option>
+				<option value="jap">JP 1.0</option>
+				<option value="usa">US</option>
+				<option value="pal">PAL</option>
+				<option value="jpa">JP 1.1</option>
+			</select><br />
+			<output name="out"></output>
+		</form>
+		<script src="script.js"></script>
+	</body>
+</html>
